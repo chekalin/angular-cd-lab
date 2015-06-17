@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-cp target/mail.zip $HOME/repository/mail-$VERSION.zip
+cp target/mail.zip ~/repository/mail-$VERSION.zip

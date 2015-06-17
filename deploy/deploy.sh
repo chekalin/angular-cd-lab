@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #take the artifact
-cp $HOME/repository/mail-$VERSION.zip target/deploy.zip
+cp ~/repository/mail-$VERSION.zip target/deploy.zip
 
 #copy artifact to target machine
 
@@ -10,4 +10,4 @@ mkdir ~/Work/projects/environments/QA/mail
 
 #unzip it in the folder
 cd ~/Work/projects/environments/QA/mail
-jar xvf $HOME/repository/mail-$VERSION.zip
+jar xvf ~/repository/mail-$VERSION.zip
